@@ -5,11 +5,23 @@ html{
 *, *::before, *::after{
     box-sizing: inherit;
 }
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size: inherit;
+}
+textarea{
+    resize: none;
+}
 a{
     display: inline-block;
     text-decoration: none;
     margin: 0;
     padding: 0;
+    color: #000;
+    outline: none;
 }
 ul, li{
     list-style: none;
@@ -18,6 +30,11 @@ ul, li{
 }
 body{
     height: 100%;
+    background-color: $bg;
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
 }
 .wrapper{
     display: flex;
@@ -31,4 +48,48 @@ body{
     flex: 0 0 auto;
 }
 .container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.section{
+    padding-top: 60px;
+}
+.social__btn{
+    li{
+        display: inline-block;
+        & + li{
+            margin-left: 10px;
+        }
+    }
+    a{
+        border: 2px solid $element;
+        border-radius: 50%;
+        height: 45px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.title{
+    color: $element;
+    font-family: 'Anjhay', sans-serif;
+    font-size: 90px;
+    z-index: 2;
+    position: relative;
+}
+.subtitle{
+    font-family: 'Pobeda', sans-serif;
+    font-size: 77px;
+    z-index: 2;
+    position: relative;
+}
+
+.descr{
+    font-size: 18px;
+    line-height: 30px;
+}
+.descr-row{
+    margin: 20px 0;
 }
