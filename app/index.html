@@ -3,8 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nutricionist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ae=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Нутрициолог Екатерина Маслова</title>
+    <meta name="keywords" content="нутрициолог, нутрициология, детский нутрициолог, семейный нутрициолог">
+    <meta name="Description"
+        content="Детский и семейный нутрициолог. Специалист по гипоаллергенному питанию и здоровому образу жизни.">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -17,65 +23,98 @@
                 <div class="container">
                     <div class="header__inner">
                         <nav class="header__menu">
+                            <div class="header__menu-btn">
+                                <img src="images/icons/menu.svg" alt="Button menu">
+                            </div>
                             <ul class="header__list">
-                                <li><a class="header__link" href="#main">главная</a></li>
-                                <li><a class="header__link" href="#about">обо мне</a></li>
-                                <li><a class="header__link" href="#services">услуги</a></li>
-                                <li><a class="header__link" href="#contacts">контакты</a></li>
+                                <li class="list-row-1"><a class="header__link" href="#main">главная</a></li>
+                                <li class="list-row-2"><a class="header__link" href="#about">обо мне</a></li>
+                                <li class="list-row-3"><a class="header__link" href="#services">услуги</a></li>
+                                <li class="list-row-4"><a class="header__link" href="#contacts">контакты</a></li>
                             </ul>
                         </nav>
-                        <div class="header__btn">
-                            <a href="#">связаться</a>
-                        </div>
+                        <a class="header__btn" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;" title="Связаться">
+                            связаться
+                        </a>
                     </div>
                 </div>
             </header>
-            <div class="btn-top" title="Наверх"></div>
             <main class="main">
                 <section class="top section" id="main">
                     <div class="container">
                         <div class="top__inner">
-                            <div class="top__title title">
-                                Екатерина Маслова
-                            </div>
-                            <div class="top__subtitle subtitle">
-                                Нутрициолог, специалист по детскому питанию
-                            </div>
-                            <div class="top__descr">
-                                Помогаю найти источник здоровья и красоты
-                                через правильные отношения с питанием и самим собой.
+                            <div class="top__text wow" data-wow-duration="3s">
+                                <div class="top__title title">
+                                    Екатерина Маслова
+                                </div>
+                                <h1 class="top__subtitle subtitle">
+                                    Нутрициолог, специалист по детскому питанию
+                                </h1>
+                                <p class="top__descr">
+                                    Помогаю найти источник здоровья и красоты
+                                    через правильные отношения с питанием и самим собой.
+                                </p>
                             </div>
                             <div class="social__btn">
                                 <ul>
-                                    <li><a href="https://instagram.com/nutri_mam" target="blank" title="Посетить instagram акаунт"><img src="images/icons/instagram.svg" alt="Icon instagram for following"></a></li>
-                                    <li><a href="mailto:maslova.nutrition@gmail.com" target="blank" title="Написать письмо на email"><img src="images/icons/mail.svg" alt="Icon email for massage"></a></li>
-                                    <li><a href="https://t.me/nutri_way" target="blank" title="Написать в telegram"><img src="images/icons/telegram.svg" alt="Icon telegram for massage"></a></li>
-                                    <li><a href="https://www.facebook.com/nutrition.mam" target="blank" title="Посетить страницу facebook"><img src="images/icons/facebook.svg" alt="Icon facebook for massage"></a></li>
+                                    <li class="wow animate__fadeInUp" data-wow-delay=".5s"><a
+                                            href="https://instagram.com/nutri_mam" target="blank"
+                                            title="Посетить instagram акаунт"><img src="images/icons/instagram.svg"
+                                                alt="Icon instagram for following"></a></li>
+                                    <li class="wow animate__fadeInUp" data-wow-delay=".7s"><a
+                                            href="mailto:maslova.nutrition@gmail.com" target="blank"
+                                            title="Написать письмо на email"><img src="images/icons/mail.svg"
+                                                alt="Icon email for massage"></a></li>
+                                    <li class="wow animate__fadeInUp" data-wow-delay=".9s"><a
+                                            href="https://t.me/nutri_way" target="blank"
+                                            title="Написать в telegram"><img src="images/icons/telegram.svg"
+                                                alt="Icon telegram for massage"></a>
+                                    </li>
+                                    <li class="wow animate__fadeInUp" data-wow-delay="1.1s"><a
+                                            href="https://www.facebook.com/nutrition.mam" target="blank"
+                                            title="Посетить страницу facebook"><img src="images/icons/facebook.svg"
+                                                alt="Icon facebook for massage"></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="top__circle">
-                        <img class="top__circle-img" src="images/vagitabels-whater.png" alt="">
-                        <img class="top__circle-lemon" src="images/lemon-slice.png" alt="">
-                        <img class="top__circle-leaf" src="images/leaf.png" alt="">
+                        <picture class="top__circle-img">
+                            <source type="image/webp" srcset="images/vagitabels-whater.webp">
+                            <img src="images/vagitabels-whater.png" alt="Main image">
+                        </picture>
+                        <picture class="top__circle-lemon">
+                            <source type="image/webp" srcset="images/lemon-slice.webp">
+                            <img src="images/lemon-slice.png" alt="Main image decoration">
+                        </picture>
+                        <picture class="top__circle-leaf">
+                            <source type="image/webp" srcset="images/leaf.webp">
+                            <img src="images/leaf.png" alt="Main image decoration">
+                        </picture>
                     </div>
-                    <div class="top__img">
-                        <img src="images/leaf-whater.png" alt="">
+                    <div class="top__img-box">
+                        <picture class="top__img">
+                            <source type=" image/webp" srcset="images/leaf-whater.webp">
+                            <img src="images/leaf-whater.png" alt="Main image decoration">
+                        </picture>
                     </div>
                 </section>
                 <section class="about section" id="about">
                     <div class="container">
+                        <h3 class="about__title title wow animate__fadeIn">
+                            Обо мне
+                        </h3>
                         <div class="about__inner">
                             <div class="about__photo">
                                 <img class="about__photo-img1" src="images/about-1.jpg" alt="">
                                 <img class="about__photo-img2" src="images/about-2.jpg" alt="">
-                                <img class="about__whater" src="images/whater.png" alt="">
+                                <picture class="about__whater">
+                                    <source type="image/webp" srcset="images/whater.webp">
+                                    <img src="images/whater.png" alt="About image decoration">
+                                </picture>
                             </div>
                             <div class="about__text">
-                                <div class="about__title title">
-                                    Обо мне
-                                </div>
                                 <div class="about__descr descr">
                                     <p class="descr-row">Рада видеть вас на моем сайте. Будем знакомы. Меня зовут
                                         Екатерина Маслова.</p>
@@ -104,70 +143,59 @@
                 </section>
                 <section class="aducation section">
                     <div class="aducation__wrapper-title">
-                        <div class="aducation__title title">
+                        <h3 class="aducation__title title wow animate__fadeIn">
                             Образование
-                        </div>
-                        <div class="aducation__subtitle subtitle">
-                            Дипломы и сертификаты
-                        </div>
+                        </h3>
                     </div>
                     <div class="aducation__wrapper">
                         <div class="container">
-                            <div class="aducation__inner">
-                                <div class="aducation__text descr">
-                                    <p class="descr-row">Я стараюсь получать современные знания. Поэтому обучаюсь и
-                                        повышаю квалификации у
-                                        врачей, нутрициологов и специалистов смежных областей из США, Великобритании и
-                                        России.</p>
-                                    <p class="descr-row">Мое первое образование – педагогическое. Я также получила
-                                        специализацию в области
-                                        трансактного анализа и коучинга в Профессиональной Психотерапевтической Лиге и
-                                        Transformation Academy (США).</p>
-                                    <p class="descr-row">Базовое обучение нутрициологии я проходила в Alison Academy
-                                        (США). Прослушала курсы The
-                                        Institute for Functional Medicine (США), повышала квалификацию в Академии
-                                        Медицинского
-                                        Образования.</p>
-                                    <p class="descr-row">Вопросы детского питания, детской йоги и физической культуры я
-                                        изучала в Академии
-                                        специалистов индустрии здоровья, Уральском учебно-курсовом центре аэробики и
-                                        фитнеса,
-                                        Уральском институте фитнеса, Международном университете фитнес-индустрии.</p>
-                                    <p class="descr-row">Углубленные знания по аллергологии, диетологии и
-                                        нутрициологическому коучингу я получила
-                                        в the University of Basel, Институте функциональной интегративной диетологии,
-                                        Международном институте интегративной нутрициологии, а также на различных
-                                        семинарах,
-                                        классах и интенсивах.</p>
-                                </div>
-                                <div class="aducation__photo">
-                                    <img class="aducation__img-1" src="images/sertificate-1.jpg" alt="">
-                                    <img class="aducation__img-2" src="images/sertificate-2.jpg" alt="">
-                                    <img class="aducation__img-3" src="images/diplom-1.jpg" alt="">
-                                    <img class="aducation__img-4" src="images/diplom-2.jpg" alt="">
-                                </div>
+                            <div class="aducation__subtitle subtitle wow animate__fadeIn">
+                                Дипломы и сертификаты
                             </div>
-                        </div>
-                        <div class="aducation__whater">
-                            <img src="images/orange-whater.png" alt="">
-                        </div>
-                        <div class="aducation__lemon">
-                            <img src="images/lemon.png" alt="">
-                        </div>
-                        <div class="aducation__leaf">
-                            <img src="images/leaf.png" alt="">
+                            <div class="aducation__descr descr">
+                                <p class="descr-row">Я стараюсь получать современные знания. Поэтому обучаюсь и
+                                    повышаю квалификации у
+                                    врачей, нутрициологов и специалистов смежных областей из США, Великобритании и
+                                    России.</p>
+                                <p class="descr-row">Мое первое образование – педагогическое. Я также получила
+                                    специализацию в области
+                                    трансактного анализа и коучинга в Профессиональной Психотерапевтической Лиге и
+                                    Transformation Academy (США).</p>
+                                <p class="descr-row">Базовое обучение нутрициологии я проходила в Alison Academy
+                                    (США). Прослушала курсы The
+                                    Institute for Functional Medicine (США), повышала квалификацию в Академии
+                                    Медицинского
+                                    Образования.</p>
+                                <p class="descr-row">Вопросы детского питания, детской йоги и физической культуры я
+                                    изучала в Академии
+                                    специалистов индустрии здоровья, Уральском учебно-курсовом центре аэробики и
+                                    фитнеса,
+                                    Уральском институте фитнеса, Международном университете фитнес-индустрии.</p>
+                                <p class="descr-row">Углубленные знания по аллергологии, диетологии и
+                                    нутрициологическому коучингу я получила
+                                    в the University of Basel, Институте функциональной интегративной диетологии,
+                                    Международном институте интегративной нутрициологии, а также на различных
+                                    семинарах,
+                                    классах и интенсивах.</p>
+                            </div>
+                            <div class="aducation__images">
+                                <img src="images/sertificate1.jpg" alt="" class="aducation__img">
+                                <img src="images/sertificate2.jpg" alt="" class="aducation__img">
+                                <img src="images/sertificate3.jpg" alt="" class="aducation__img">
+                                <img src="images/sertificate4.jpg" alt="" class="aducation__img">
+                            </div>
                         </div>
                     </div>
                 </section>
                 <section class="appeal section">
                     <div class="container">
-                        <div class="appeal__title title">
+                        <div class="appeal__title title wow animate__fadeIn">
                             Вы можете
                         </div>
-                        <div class="appeal__subtitle subtitle">
+                        <div class="appeal__subtitle subtitle wow animate__fadeIn">
                             обратиться ко мне чтобы
                         </div>
-                        <div class="appeal__descr descr">
+                        <div class="appeal__descr descr wow animate__fadeIn">
                             <ul>
                                 <li class="appeal__descr-row">улучшить познавательные и интеллектуальные способности
                                     детей,</li>
@@ -186,7 +214,7 @@
                                 <li class="appeal__descr-row">улучшить внешние данные и физическую форму.</li>
                             </ul>
                         </div>
-                        <div class="appeal__subdescr descr">
+                        <div class="appeal__subdescr descr wow animate__fadeIn">
                             <p class="appeal__subdescr-row">В своих программах я придерживаюсь противовоспалительных
                                 протоколов питания, рекомендую ограничение
                                 продуктов на основе сахара, белой муки, молочной продукции промышленного производства.
@@ -198,17 +226,19 @@
                             </p>
                         </div>
                     </div>
-                    <div class="appeal__img">
-                        <img src="images/mite-whater.png" alt="">
-                    </div>
+                    <picture class="appeal__img">
+                        <source type="image/webp" srcset="images/mite-whater.webp">
+                        <img src="images/mite-whater.png" alt="Appeal image decoration">
+                    </picture>
                 </section>
                 <section class="services section" id="services">
                     <div class="container">
-                        <div class="services__title title">
+                        <h3 class="services__title title wow animate__fadeIn">
                             Услуги
-                        </div>
+                        </h3>
                         <div class="services__inner">
-                            <a class="services__big-item" href="#">
+                            <a class="services__big-item wow" href="https://nutri.stylista.ru/consultation"
+                                title="Узнать подробнее или заказать услугу">
                                 <img class="big-item__img" src="images/services-1.jpg" alt="">
                                 <div class="big-item__text">
                                     <div class="big-item__title">
@@ -222,109 +252,635 @@
                                     Подробнее
                                 </div>
                             </a>
-                            <a class="services__small-item" href="#">
+                            <a class="services__small-item wow" data-wow-delay=".1s"
+                                href="https://nutri.stylista.ru/decryption" title="Узнать подробнее или заказать услугу">
                                 <div class="small-item__inner">
                                     <img class="small-item__photo" src="images/services-2.jpg" alt="">
                                     <div class="small-item__title">
                                         рекомендации по расшифровке результатов анализов
                                     </div>
+                                    <div class="small-item__btn">
+                                        Подробнее
+                                    </div>
                                 </div>
                             </a>
-                            <a class="services__small-item" href="#">
+                            <a class="services__small-item wow" data-wow-delay=".2s"
+                                href="https://nutri.stylista.ru/escort" title="Узнать подробнее или заказать услугу">
                                 <div class="small-item__inner">
                                     <img class="small-item__photo" src="images/services-3.jpg" alt="">
                                     <div class="small-item__title">
                                         нутрициологическое сопровождение взрослого/ребенка в течении месяца
                                     </div>
+                                    <div class="small-item__btn">
+                                        Подробнее
+                                    </div>
                                 </div>
                             </a>
-                            <a class="services__small-item" href="#">
+                            <a class="services__small-item wow" data-wow-delay=".3s"
+                                href="https://nutri.stylista.ru/development"
+                                title="Узнать подробнее или заказать услугу">
                                 <div class="small-item__inner">
                                     <img class="small-item__photo" src="images/services-4.jpg" alt="">
                                     <div class="small-item__title">
                                         разработка меню на 1 месяц
                                     </div>
+                                    <div class="small-item__btn">
+                                        Подробнее
+                                    </div>
                                 </div>
                             </a>
-                            <a class="services__small-item" href="#">
+                            <a class="services__small-item wow" data-wow-delay=".4s"
+                                href="https://nutri.stylista.ru/training" title="Узнать подробнее или заказать услугу">
                                 <div class="small-item__inner">
                                     <img class="small-item__photo" src="images/services-5.jpg" alt="">
                                     <div class="small-item__title">
-                                        Подготовка/сопровождение будущей мамы в течение 15 месяцев
+                                        Подготовка/сопровождение будущей мамы в течении 15 месяцев
+                                    </div>
+                                    <div class="small-item__btn">
+                                        Подробнее
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="services__img">
-                        <img src="images/whater-bot.png" alt="">
-                    </div>
+                    <picture class="services__img">
+                        <source type="image/webp" srcset="images/whater-bottom.webp">
+                        <img src="images/whater-bottom.png" alt="Services image decoration">
+                    </picture>
                 </section>
                 <section class="contacts section" id="contacts">
                     <div class="container">
                         <div class="contacts__inner">
-                            <div class="contacts__form">
+                            <div class="contacts__form wow animate__fadeInLeft">
                                 <form class="form">
                                     <input type="hidden" name="project_name" value="nutricionist">
                                     <input type="hidden" name="admin_email" value="maslova.nutrition@gmail.com">
                                     <input type="hidden" name="form_subject" value="contacts">
-                                    <input class="form__input" id="formName" name="Имя клиента" type="text"
-                                        placeholder="Имя" maxlength="25"
+                                    <input class="form__input" name="Имя клиента" type="text" placeholder="*Имя"
+                                        maxlength="25"
                                         onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" required>
-                                    <input class="form__input" id="formPhone" name="Телефон клиента" type="tel"
-                                        placeholder="Телефон" required>
-                                    <input class="form__input" id="formEmail" name="email" type="mail"
-                                        placeholder="Email">
-                                    <textarea id="formMessage" class="form__input form__textarea" name="message"
+                                    <input class="form__input" name="Телефон клиента" type="tel" placeholder="*Телефон"
+                                        required>
+                                    <input class="form__input" name="email" type="mail" placeholder="*Email">
+                                    <textarea class="form__input form__textarea" name="message"
                                         placeholder="Ваше сообщение" maxlength="500"></textarea>
                                     <div class="checkbox">
-                                        <input class="checkbox__input _req" id="formAgreement" name="agreement"
+                                        <input class="checkbox__input" id="formAgreement" name="agreement"
                                             type="checkbox" checked required>
                                         <label for="formAgreement" class="checkbox__label"><span>*</span>Даю
-                                            согласие на <a class="btn-primary link" data-fancybox
+                                            согласие на <a class="btn-primary" data-fancybox
                                                 data-animation-duration="700" data-src="#animatedModalPrivate"
                                                 href="javascript:;"
                                                 title="Согласие на обработку персональных данных">обработку
                                                 персональных данных</a></label>
                                     </div>
                                     <button class="form__button" type="submit">Отправить</button>
+                                    <div class="form__footnote">
+                                        <span>*</span> Отмечены поля, обязательные для заполнения.
+                                    </div>
                                 </form>
                             </div>
                             <div class="contacts__text">
-                                <div class="contacts__title title">
+                                <h3 class="contacts__title title wow animate__fadeIn">
                                     Остались вопросы?
-                                </div>
-                                <div class="contacts__subtitle subtitle">
+                                </h3>
+                                <h3 class="contacts__subtitle subtitle wow animate__fadeIn">
                                     Не смогли подобрать услугу?
-                                </div>
-                                <div class="contacts__descr descr">
+                                </h3>
+                                <p class="contacts__descr descr wow">
                                     Заполните форму обратной связи или свяжитесь со мной любым , удобным для Вас,
                                     способом:
-                                </div>
+                                </p>
                                 <div class="social__btn">
                                     <ul>
-                                        <li><a href="https://instagram.com/nutri_mam" target="blank" title="Посетить instagram акаунт"><img src="images/icons/instagram.svg" alt="Icon instagram for following"></a></li>
-                                        <li><a href="mailto:maslova.nutrition@gmail.com" target="blank" title="Написать письмо на email"><img src="images/icons/mail.svg" alt="Icon email for massage"></a></li>
-                                        <li><a href="https://t.me/nutri_way" target="blank" title="Написать в telegram"><img src="images/icons/telegram.svg" alt="Icon telegram for massage"></a></li>
-                                        <li><a href="https://www.facebook.com/nutrition.mam" target="blank" title="Посетить страницу facebook"><img src="images/icons/facebook.svg" alt="Icon facebook for massage"></a></li>
-                                    </ul>
+                                        <li class="wow animate__fadeInUp" data-wow-delay=".3s"><a
+                                                href="https://instagram.com/nutri_mam" target="blank"
+                                                title="Посетить instagram акаунт"><img src="images/icons/instagram.svg"
+                                                    alt="Icon instagram for following"></a></li>
+                                        <li class="wow animate__fadeInUp" data-wow-delay=".5s"><a
+                                                href="mailto:maslova.nutrition@gmail.com" target="blank"
+                                                title="Написать письмо на email"><img src="images/icons/mail.svg"
+                                                    alt="Icon email for massage"></a></li>
+                                        <li class="wow animate__fadeInUp" data-wow-delay=".7s"><a
+                                                href="https://t.me/nutri_way" target="blank"
+                                                title="Написать в telegram"><img src="images/icons/telegram.svg"
+                                                    alt="Icon telegram for massage"></a>
+                                        </li>
+                                        <li class="wow animate__fadeInUp" data-wow-delay=".9s"><a
+                                                href="https://www.facebook.com/nutrition.mam" target="blank"
+                                                title="Посетить страницу facebook"><img src="images/icons/facebook.svg"
+                                                    alt="Icon facebook for massage"></a></li>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <div style="display: none;" id="animatedModal" class="animated-modal__form">
+                    <div class="contacts__form">
+                        <form class="form">
+                            <input type="hidden" name="project_name" value="nutricionist">
+                            <input type="hidden" name="admin_email" value="maslova.nutrition@gmail.com">
+                            <input type="hidden" name="form_subject" value="header_button">
+                            <input class="form__input" name="Имя клиента" type="text" placeholder="*Имя" maxlength="25"
+                                onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" required>
+                            <input class="form__input" name="Телефон клиента" type="tel" placeholder="*Телефон"
+                                required>
+                            <input class="form__input" name="email" type="mail" placeholder="*Email">
+                            <textarea class="form__input form__textarea" name="message" placeholder="Ваше сообщение"
+                                maxlength="500"></textarea>
+                            <div class="checkbox">
+                                <input class="checkbox__input" id="formAgreementFuncy" name="agreement" type="checkbox"
+                                    checked required>
+                                <label for="formAgreementFuncy" class="checkbox__label"><span>*</span>Даю
+                                    согласие на <a class="btn-primary" data-fancybox data-animation-duration="700"
+                                        data-src="#animatedModalPrivate" href="javascript:;"
+                                        title="Согласие на обработку персональных данных">обработку
+                                        персональных данных</a></label>
+                            </div>
+                            <button class="form__button" type="submit">Отправить</button>
+                            <div class="form__footnote">
+                                <span>*</span> Отмечены поля, обязательные для заполнения.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div style="display: none;" id="animatedModalPrivate" class="animated-modal__form">
+                    <p class="animated-modal__descr descr">
+                        Внимательно прочитайте текст данной Политики обработки персональных данных, и если Вы не
+                        согласны с ее условиями или с каким-либо пунктом условий, вы можете отказаться от использования
+                        Сайта.
+                    </p>
+                    <p class="animated-modal__descr descr">Дополнительную информацию можно получить по e-mail:
+                        <a class="questionnarie__link" href="mailto:maslova.nutrition@gmail.com" target="blank"
+                            title="Написать письмо на email">
+                            maslova.nutrition@gmail.com
+                        </a>
+                    </p>
+                    <h5 class="private__subtitle">ПОЛИТИКА ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ</h5>
+                    <p class="animated-modal__descr descr">Настоящая политика обработки персональных данных составлена в
+                        соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и
+                        определяет порядок обработки персональных данных и меры по обеспечению их безопасности.</p>
+                    <p class="animated-modal__descr descr">Политика содержит пояснения о том, как используется
+                        информация, которую Вы нам предоставляете, и как связаться с нами, если у Вас возникнут вопросы
+                        и проблемы.</p>
+                    <p class="animated-modal__descr descr">Настоящая политика размещена на сайте <a
+                        class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                        title="Главная страница сайта">nutria.stylita.ru</a> в
+                        открытом доступе и предназначена для всех пользователей сайта. Пользуясь сайтом, Вы
+                        подтверждаете, что ознакомились с настоящей политикой и полностью согласны со всеми ее
+                        условиями.</p>
+                    <ul class="private__list">
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>1.</span>Какая информация нам необходима?
+                            </h6>
+                            <p class="private__descr descr">Если вы решаете подписаться на информационный продукт,
+                                марафон, интенсив или тренинг, размещенный на этом сайте, мы запросим у Вас имя, номер
+                                мобильного телефона и адрес электронной почты. Это объясняется следующими соображениями.
+                                Ваш интерес к нашему информационному продукту, марафону, интенсиву или тренингу
+                                позволяет предположить, что и другие продукты по темам правильное питание, здоровый
+                                образ жизни, система домашнего ухода, методики противодействия стрессу и другие
+                                связанные темы могут быть Вам интересны и полезны. Для того, чтобы информировать Вас об
+                                этих продуктах, а также обеспечить к ним доступ, нам требуется отправить Вам
+                                информационное письмо. Кроме того, мы можем проводить опросы для выяснения Вашего мнения
+                                о наших продуктах, а также Ваших пожеланий. Перед тем, как предоставить нам чужие
+                                персональные данные, обязательно получите разрешение соответствующих лиц. Убедитесь, что
+                                предоставляете правильные и точные сведения.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>2.</span>Что мы делаем с Вашей персональной информацией?
+                            </h6>
+                            <p class="private__descr descr">Адрес Вашей электронной почты и Ваше имя мы используем в
+                                следующих целях:</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">исполнения наших договорных
+                                        обязательств;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">установления с вами обратной связи,
+                                        включая направление уведомлений, запросов, обработки запросов и заявок от вас;
+                                    </p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">подтверждения достоверности и полноты
+                                        персональных данных, предоставленных вами;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">предоставления вам клиентской
+                                        поддержки;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">получения обратной связи отзывов и
+                                        рекомендаций от вас;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">рассылки информации, в том числе
+                                        рекламного характера.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">предоставления Вам информационных
+                                        продуктов и услуг, а также проведения опросов с целью определения информации, в
+                                        которой Вы нуждаетесь;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">рассылки служебных сообщений (например,
+                                        если Вы забыли свой пароль – применительно к продуктам, содержащим пароль);</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">предотвращения и выявления
+                                        мошенничества и незаконного использования наших продуктов или услуг.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>3.</span>Кто еще получает доступ к персональной информации?
+                            </h6>
+                            <p class="private__descr descr">Мы не раскрываем третьим лицам и не распространяем
+                                персональные данные без согласия субъекта персональных данных, если иное не
+                                предусмотрено законодательством, договором, не указано в полученном от него согласии на
+                                обработку персональных данных или персональные данные не сделаны субъектом
+                                общедоступными самостоятельно.
+
+                            </p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>4.</span>Идентификационные файлы (cookies)
+                            </h6>
+                            <p class="private__descr descr">На сайте могут использоваться файлы Cookies – это небольшие
+                                файлы, которые временно сохраняются на жестком диске. Они позволяют распознать компьютер
+                                Пользователя при дальнейших посещениях сайта. Сайт использует cookies исключительно в
+                                целях получения информации об использовании сайта. Данные в файлах cookies анонимны и не
+                                содержат персональных данных.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>5.</span>Безопасность
+                            </h6>
+                            <p class="private__descr descr">Мы предпринимаем разумные меры для сведения к минимуму
+                                возможности утраты, кражи, недобросовестного использования, несанкционированного доступа
+                                к Вашей персональной информации, уничтожения, изменения или ее раскрытию. В то же время
+                                мы не можем гарантировать абсолютного устранения риска несанкционированного
+                                злоупотребления персональной информацией. Убедительно просим Вас самым внимательным
+                                образом подойти к хранению паролей к учетным записям и не сообщать их кому-либо еще (в
+                                случае, если речь идет о продуктах, содержащих пароли доступа). Немедленно свяжитесь с
+                                нами, если станет известно о каком-либо нарушении информационной безопасности (например,
+                                несанкционированном использовании Вашего пароля).</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>6.</span>Отказ от подписки
+                            </h6>
+                            <p class="private__descr descr">В можете в любой момент отозвать свое согласие на обработку
+                                персональных данных, направив уведомление на электронный адрес <a
+                                    class="questionnarie__link" href="mailto:maslova.nutrition@gmail.com" target="blank"
+                                    title="Написать письмо на email">maslova.nutrition@gmail.com</a> с пометкой «Отзыв
+                                согласия на обработку персональных данных».
+
+                            </p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>7.</span>Трансграничная передача персональных данных
+                            </h6>
+                            <p class="private__descr descr">До начала осуществления трансграничной передачи персональных
+                                данных мы обязаны убедиться в том, что иностранным государством, на территорию которого
+                                предполагается осуществлять передачу персональных данных, обеспечивается надежная защита
+                                прав субъектов персональных данных.</p>
+                            <p class="private__descr descr">Если на территории иностранных государств не соблюдаются
+                                выше указанные требования, передача данных может осуществляться только при наличия
+                                письменного согласия субъекта персональных данных на трансграничную передачу его
+                                персональных данных и/или исполнения договора, стороной которого является субъект
+                                персональных данных.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>8.</span>Контакты
+                            </h6>
+                            <p class="private__descr descr">Если у Вас возникнут вопросы и/или проблемы, связанные с
+                                политикой безопасности и сохранностью Ваших персональных данных, обращайтесь,
+                                пожалуйста, на адрес: <a class="questionnarie__link"
+                                    href="mailto:maslova.nutrition@gmail.com" target="blank"
+                                    title="Написать письмо на email">maslova.nutrition@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
             </main>
         </div>
         <footer class="footer">
-            <div class="footer__copy">
-                © Copiright 2021 Маслова Екатерина. Все права защищены.
+            <div class="container">
+                <div class="footer__item">
+                    © Copiright 2021 Маслова Екатерина. Все права защищены.
+                </div>
+                <div class="footer__item">
+                    <a class="footer__offer-link" data-fancybox data-animation-duration="700"
+                        data-src="#animatedModalOffer" href="javascript:;" title="Ознакомиться с договором оферты">
+                        Договор оферты
+                    </a>
+                </div>
+                <div style="display: none;" id="animatedModalOffer" class="animated-modal__form">
+                    <h5 class="private__subtitle">ПУБЛИЧНАЯ ОФЕРТА НА ОКАЗАНИЕ УСЛУГ NUTRISOL</h5>
+                    <p class="animated-modal__descr descr">Настоящиий документ представляет собоий предложение ООО «Раий тс», именуемое в
+                        дальнеий шем «Исполнитель», в лице генерального директора Серопяна Ашота
+                        Ремиковича, деий ствующего на основании Устава, заключить Договор на возмездное
+                        оказание услуг.</p>
+                    <ul class="private__list">
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>1.</span>ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ, ИСПОЛЬЗУЕМЫЕ В ДОГОВОРЕ
+                            </h6>
+                            <p class="private__descr descr">1.1. В настоящем Соглашении используются следующие термины, имеющие
+                                определенное ниже значение:
+                                </p>
+                                <ul class="private__list">
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Заказчик – физическое лицо, индивидуальныий предприниматель или
+                                            юридическое лицо, независимо от организационно правовоий формы,
+                                            обратившееся с заказом к Исполнителю в соответствии с условиями
+                                            настоящего Договора.</p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Исполнитель – юридическое лицо, оказывающее услуги Заказчику по
+                                            Договору. </p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Договор – соглашение Заказчика и Исполнителя об условиях оказания
+                                            услуг путем подписания (принятия условиий ) настоящего Договора.</p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Услуги – консультирование по вопросу правильного питания, в т.ч.:
+                                            Персональная консультация опытного нутрициолога и других
+                                            специалистов;
+                                            Понятная трактовка результатов анализов и исследованиий ;
+                                            Разбор рациона питания с индивидуальным подбором продуктов;
+                                            Рекомендации по выбору продуктов питания, приготовлению блюд;
+                                            Профессиональные советы по внедрению рекомендациий ;
+                                            Список рекомендуемых добавок, минералов, витаминов, трав.</p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Сайт – информационныий ресурс Исполнителя, размещенныий в сети
+                                            Интернет по адресу: <a
+                                            class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                                            title="Главная страница сайта">nutria.stylita.ru</a></p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Заказ – автоматически формируемыий документ, определяющиий набор
+                                            Услуг, необходимых Заказчику. Заказ формируется путем заполнения
+                                            необходимых форм на саий те Исполнителя – <a
+                                            class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                                            title="Главная страница сайта">nutria.stylita.ru</a></p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Принятие условий Договора – деий ствия Заказчика по принятию условиий
+                                            настоящего Договора, путем оплаты сформированного выставленного
+                                            Исполнителем Счета, посредством наличных или безналичных денежных
+                                            средств или электронных средств платежа. Принятие условиий Договора
+                                            считается состоявшимся при оплате Заказчиком настоящего Договора
+                                            посредством оплаты наличными или безналичными денежными
+                                            средствами, либо электронными средствами платежа.</p>
+                                    </li>
+                                    <li class="private__item">
+                                        <p class="private__descr private__row descr">Дата оплаты – в зависимости от выбранного способа платежа –
+                                            поступление наличных денежных средств в кассу Исполнителя; или
+                                            оплата денежных средств в безналичном порядке – прием денежных
+                                            средств платежным агентом; отражение поступления денежных средств
+                                            Исполнителю в соответствии с Федеральным Законом РФ «О
+                                            национальноий платежноий системе». </p>
+                                    </li>
+                                    <p class="private__descr descr">1.2. В случае, если в Соглашении используются термины и понятия, не
+                                        определенные в настоящем разделе, они имеют значения, которые обычно
+                                        придаются им на практике.</p>
+                                </ul>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>2.</span>ПРЕДМЕТ ДОГОВОРА
+                            </h6>
+                            <p class="private__descr descr">2.1. Предметом договора является возмездное оказание Исполнителем услуг по
+                                заданию Заказчика, а именно:</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Персональную консультацию опытного нутрициолога и других
+                                        специалистов;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Понятную трактовку результатов анализов и исследованиий;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Разбор рациона питания с индивидуальным подбором продуктов;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Рекомендации по выбору продуктов питания, приготовлению блюд;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Профессиональные советы по внедрению рекомендациий;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Список рекомендуемых добавок, минералов, витаминов, трав.</p>
+                                </li>
+                            </ul>
+                            <p class="private__descr descr">2.2. Правила оказания услуг по Договору:</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Для получения услуг любое физическое лицо должно ознакомиться со
+                                        списком консультациий , настоящеий Офертоий и другими
+                                        информационными материалами на саий те.
+                                        </p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Заказчик вправе оформить заказ на любую услугу, представленную на
+                                        саий те <a
+                                        class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                                        title="Главная страница сайта">nutria.stylita.ru</a>. Для получения услуги Заказчик должен Акцептировать
+                                        Оферту на саий те <a
+                                        class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                                        title="Главная страница сайта">nutria.stylita.ru</a>, путем заполнения формы, указанноий в
+                                        разделе «Услуги», после чего нажать кнопку «Заказать услугу».</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">При оформлении Услуги, Заказчик обязан заполнить анкету</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Волеизъявление Заказчика осуществляется посредством внесения
+                                        последним соответствующих данных в форму заказа на саий те и нажатии
+                                        на кнопку «Заказать услугу».
+                                        </p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Исполнитель принимает заказ, а затем или подтверждает возможность
+                                        его выполнения или сообщает Заказчику об отказе в его исполнении.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">После оформления заказа, Исполнителем на e-mail Заказчика
+                                        отправляется подтверждение принятия заказа и счет, с указанием
+                                        наименования, описания и цены выбранноий услуги. Оплата счета
+                                        (полностью или частично) Заказчиком является подтверждением
+                                        правильного оформления услуги.
+                                        </p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Заказчик вправе сделать предварительныий запрос с выбором типа
+                                        консультации, описанием ситуации и выбором специалиста.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Для получения бумажного экземпляра Договора, Заявитель отправляет
+                                        заявку по электронноий почте, указанноий на саий те.
+                                        </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>3.</span>ПРАВА И ОБЯЗАННОСТИ СТОРОН
+                            </h6>
+                            <p class="private__descr descr">3.1. Обязанности заказчика</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Строго соблюдать условия настоящего Договора.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Предоставлять Исполнителю запрашиваемые им материалы и
+                                        информацию;</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Оплачивать Услуги Исполнителя в порядке, предусмотренном Договором.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Предоставить полную и достоверную информацию о сложившеий ся
+                                        ситуации, в т.ч. о состоянии здоровья.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Использовать материалы консультации только для личного потребления.</p>
+                                </li>
+                            </ul>
+                            <p class="private__descr descr">3.2. Заказчик вправе:</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Получать консультации по указанным вопросам.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Отказаться от исполнения Договора при условии оплаты Исполнителю
+                                        фактически понесенных им расходов.</p>
+                                </li>
+                            </ul>
+                            <p class="private__descr descr">3.3. Обязанности исполнителя:</p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Строго соблюдать условия настоящего Договора и законодательства РФ.</p>
+                                </li>
+                            </ul>
+                            <p class="private__descr descr">3.4. Исполнитель вправе:
+                            </p>
+                            <ul class="private__list">
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr">Предоставить заказчику услугу в соответствии с положениями
+                                        настоящего Соглашения.</p>
+                                </li>
+                                <li class="private__item">
+                                    <p class="private__descr private__row descr"> Отказаться от исполнения Договора при условии возмещения Заказчику
+                                        причиненных ему убытков.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>4.</span>ПОРЯДОК ОПЛАТЫ
+                            </h6>
+                            <p class="private__descr descr">4.1. Заказчик оплачивает услуги авансом в течение 3-х днеий с даты подписания
+                                (принятия) Договора.</p>
+                            <p class="private__descr descr">4.2. В случае неоплаты Заказчиком в течение 3-х днеий с даты подписания
+                                (принятия) Договора, Договор считается расторгнутым: Исполнитель не оказывает
+                                услуги. Стороны в этом случае не имеют друг к другу претензиий .</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>5.</span>УСЛОВИЯ ОКАЗАНИЯ УСЛУГ
+                            </h6>
+                            <p class="private__descr descr">5.1. Исполнитель приступает к оказанию Услуг на следующиий день после Даты
+                                оплаты.
+                                </p>
+                            <p class="private__descr descr">5.2. Приемка Заказчиком оказанных Услуг по Договору осуществляется в
+                                течение 5 (пяти) рабочих днеий с момента получения им акта оказания услуг. Акт об
+                                оказании услуг может быть направлен Заказчику по почте. Если Заказчик
+                                уклоняется от получения почты, то в данном случае, моментом получения
+                                Заказчиком акта оказания услуг является день доставки соответствующего Акта в
+                                почтовое отделение обслуживающее адрес Заказчика.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>6.</span>СРОК ДЕЙСТВИЯ ДОГОВОРА
+                            </h6>
+                            <p class="private__descr descr">6.1. Договор вступает в силу с момента оплаты выставленного Исполнителем
+                                Счета (либо по реквизитам, указанным на сайте <a
+                                class="questionnarie__link" href="https://nutri.stylista.ru" target="blank"
+                                title="Главная страница сайта">nutria.stylita.ru</a>) и деий ствует до полного
+                                исполнения Сторонами своих обязательств по Договору либо до момента
+                                расторжения Договора.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>7.</span> ОТВЕТСТВЕННОСТЬ СТОРОН
+                            </h6>
+                            <p class="private__descr descr">7.1. За неисполнение или ненадлежащее исполнение обязательств по Договору
+                                Стороны несут ответственность в соответствии с деий ствующим Договором и
+                                законодательством РФ.</p>
+                            <p class="private__descr descr">7.2. Стороны освобождаются от ответственности в случае, когда невозможность
+                                исполнения возникла по обстоятельствам, за которые ни одна из Сторон не отвечает
+                                (форс-мажор). Сторона, которая не может исполнить своего обязательства, должна
+                                известить другую Сторону о препятствии и его влиянии на исполнение обязательств
+                                по Договору в течение 10 (десяти) календарных днеий с момента возникновения этих
+                                обстоятельств. Дальнеий шая судьба Договора в таких случаях должна быть
+                                определена соглашением Сторон.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>8.</span>ПОРЯДОК РАЗРЕШЕНИЯ СПОРОВ
+                            </h6>
+                            <p class="private__descr descr">8.1. Все споры или разногласия, возникающие между Сторонами по Договору
+                                или в связи с ним, разрешаются путем переговоров между Сторонами.
+                                </p>
+                            <p class="private__descr descr">8.2. Стороны пришли к соглашению, что в случае невозможности разрешения
+                                разногласиий путем переговоров они подлежат рассмотрению в соответствующем
+                                суде судебноий системы РФ по месту нахождения Исполнителя (договорная
+                                подсудность).</p>
+                            <p class="private__descr descr">8.3. По вопросам, не урегулированным Договором, подлежат применению
+                                законы и иные правовые акты Россиий скоий Федерации, в том числе соответствующие
+                                правовые акты, принятые субъектами Россиий скоий Федерации и органами местного
+                                самоуправления.</p>
+                        </li>
+                        <li class="private__item">
+                            <h6 class="private__title">
+                                <span>9.</span>ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ
+                            </h6>
+                            <p class="private__descr descr">9.1. Договор заключеён в 2-х экземплярах, имеющих одинаковую юридическую
+                                силу, по одному экземпляру для каждоий Стороны. </p>
+                            <p class="private__descr descr">9.2. Стороны соглашаются, что за исключением сведениий , которые в
+                                соответствии с законодательством Россиий скоий Федерации не могут составлять
+                                таий ну лица (коммерческую таий ну), содержание Договора, а также все документы и
+                                информация, переданная Сторонами друг другу в связи с Договором, считаются
+                                конфиденциальными и относятся к таий не (коммерческоий таий не) Сторон, которая не
+                                подлежит разглашению без письменного согласия другоий Стороны.</p>
+                            <p class="private__descr descr">9.3. Условия Договора обязательны для правопреемников Сторон.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <a class="footer__mail-link" href="mailto:maslova.nutrition@gmail.com" target="blank"
+                        title="Написать письмо на email">maslova.nutrition@gmail.com</a>
+                </div>
             </div>
-            <a class="footer__offer" href="#">
-                Договор оферты
-            </a>
-            <a class="footer__mail" href="mailto:maslova.nutrition@gmail.com" target="blank" title="Написать письмо на email">maslova.nutrition@gmail.com</a>
-            <a class="footer__dev" href="https://vk.com/splattt" target="blank" title="Посетить страничку разработчика vkontakte">Разработчик сайта</a>
+            <div class="footer__item footer__dev">
+                <a class="footer__dev-link" href="https://vk.com/splattt" target="blank"
+                    title="Посетить страничку разработчика vkontakte">Разработчик сайта</a>
+            </div>
         </footer>
+        <a class="btn-top" href="javascript" title="Наверх">
+            <img src="images/btn-top.png" alt="">
+        </a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

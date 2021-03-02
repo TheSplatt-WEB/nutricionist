@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://nutri.stylista.ru/sitemap.xml

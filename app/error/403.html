@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ae=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Нутрициолог Екатерина Маслова</title>
+    <meta name="keywords" content="нутрициолог, нутрициология, детский нутрициолог, семейный нутрициолог">
+    <meta name="Description"
+        content="Детский и семейный нутрициолог. Специалист по гипоаллергенному питанию и здоровому образу жизни.">
+    <link rel="shortcut icon" href="../images/icons/favicon.ico">
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <nav class="header__menu">
+                            <div class="header__menu-btn">
+                                <img src="../images/icons/menu.svg" alt="Button menu">
+                            </div>
+                            <ul class="header__list">
+                                <li class="list-row-1"><a class="header__link-main"
+                                        href="https://nuti.stylista.ru">главная</a></li>
+                            </ul>
+                        </nav>
+                        <a class="header__btn" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;" title="Связаться">
+                            связаться
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="error section">
+                    <div class="container">
+                        <div class="error__wrapper">
+                            <a class="header__btn error__btn" href="https://nuti.stylista.ru"
+                                title="Перейти на главную страницу сайта">На
+                                главную</a>
+                            <div class="error__title">403</div>
+                            <div class="error__subtitle">Доступ запрещен</div>
+                            <img class="error__img" src="../images/error.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <div style="display: none;" id="animatedModal" class="animated-modal__form">
+                    <div class="contacts__form">
+                        <form class="form">
+                            <input type="hidden" name="project_name" value="nutricionist">
+                            <input type="hidden" name="admin_email" value="maslova.nutrition@gmail.com">
+                            <input type="hidden" name="form_subject" value="header_button">
+                            <input class="form__input" name="Имя клиента" type="text" placeholder="*Имя" maxlength="25"
+                                onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value='';}" required>
+                            <input class="form__input" name="Телефон клиента" type="tel" placeholder="*Телефон"
+                                required>
+                            <input class="form__input" name="email" type="mail" placeholder="*Email">
+                            <textarea class="form__input form__textarea" name="message" placeholder="Ваше сообщение"
+                                maxlength="500"></textarea>
+                            <div class="checkbox">
+                                <input class="checkbox__input" id="formAgreementFuncy" name="agreement" type="checkbox"
+                                    checked required>
+                                <label for="formAgreementFuncy" class="checkbox__label"><span>*</span>Даю
+                                    согласие на <a class="btn-primary" data-fancybox data-animation-duration="700"
+                                        data-src="#animatedModalPrivate" href="javascript:;"
+                                        title="Согласие на обработку персональных данных">обработку
+                                        персональных данных</a></label>
+                            </div>
+                            <button class="form__button" type="submit">Отправить</button>
+                            <div class="form__footnote">
+                                <span>*</span> Отмечены поля, обязательные для заполнения.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div style="display: none;" id="animatedModalPrivate" class="animated-modal__form">
+                    Согласие на обработку персональных данных
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__item">
+                    © Copiright 2021 Маслова Екатерина. Все права защищены.
+                </div>
+                <div class="footer__item">
+                    <a class="footer__offer-link" data-fancybox data-animation-duration="700"
+                        data-src="#animatedModalOffer" href="javascript:;" title="Ознакомиться с договором оферты">
+                        Договор оферты
+                    </a>
+                </div>
+                <div style="display: none;" id="animatedModalOffer" class="animated-modal__form">
+                    Оферта
+                </div>
+                <div class="footer__item">
+                    <a class="footer__mail-link" href="mailto:maslova.nutrition@gmail.com" target="blank"
+                        title="Написать письмо на email">maslova.nutrition@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer__item footer__dev">
+                <a class="footer__dev-link" href="https://vk.com/splattt" target="blank"
+                    title="Посетить страничку разработчика vkontakte">Разработчик сайта</a>
+            </div>
+        </footer>
+        <a class="btn-top" href="javascript" title="Наверх">
+            <img src="../images/btn-top.png" alt="">
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/libs.min.js"></script>
+    <script src="../js/main.min.js"></script>
+</body>
+
+</html>
