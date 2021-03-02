@@ -92,7 +92,7 @@ var wow = new WOW(
     {
       boxClass: 'wow',
       animateClass: 'animate__animated',
-      offset: 150,
+      offset: 100,
     }
   );
-  wow.init();
+wow.init();

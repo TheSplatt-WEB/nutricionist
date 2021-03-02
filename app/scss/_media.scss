@@ -138,6 +138,23 @@
     .error__subtitle{
         font-size: 50px;
     }
+    .services__small-item{
+        &:nth-child(2){
+            animation-delay: 0s;
+        }
+        &:nth-child(3){
+            animation-delay: 0s;
+            animation-name: fadeInLeft;
+        }
+        &:nth-child(4){
+            animation-delay: 0s;
+            animation-name: fadeInRight;
+        }
+        &:nth-child(5){
+            animation-delay: 0s;
+            animation-name: fadeInLeft;
+        }
+    }
 }
 @media(max-width: 650px){
     .header__menu-btn{
