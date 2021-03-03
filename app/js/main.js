@@ -64,6 +64,20 @@ $(function () {
         });
         return false;
     });
+    $(".form-questionnarie").on('submit', function () {
+        let th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: th.serialize()
+        }).done(function () {
+            alert("Спасибо, Ваша заявка принята.");
+            setTimeout(function () {
+                th.trigger("reset");
+            }, 1000);
+        });
+        return false;
+    });
     $.fn.setCursorPosition = function (pos) {
         if ($(this).get(0).setSelectionRange) {
             $(this).get(0).setSelectionRange(pos, pos);
