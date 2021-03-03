@@ -11,7 +11,11 @@ gulp.task('sass', function () {
     return gulp.src('app/scss/**/*.scss')
         .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(autoprefixer({ overrideBrowserslist: ['last 8 versions'] }))
+        .pipe(autoprefixer({
+            grid: true,
+            overrideBrowserslist: ['last 8 versions'],
+            cascade: true
+        }))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({ stream: true }))
 });
