@@ -27,23 +27,12 @@
         left: -100px;
         bottom: -50px;
     }
-    .small-item__title,
-    .big-item__title{
-        font-size: 30px;
-    }
 }
 @media(max-width: 1050px){
-    .title{
-        font-size: 60px;
-    }
-    .subtitle{
-        font-size: 46px;
-    }
     .top__subtitle{
         max-width: 450px;
     }
     .top__descr{
-        font-size: 18px;
         max-width: 500px;
     }
     .top__img{
@@ -63,10 +52,6 @@
     .about__photo-img2{
         width: 300px;
         top: 300px;
-    }
-    .small-item__title,
-    .big-item__title{
-        font-size: 25px;
     }
     .error__subtitle{
         margin-right: 0;
@@ -106,10 +91,6 @@
         left: 0;
         top: 0;
     }
-    .small-item__title,
-    .big-item__title{
-        font-size: 36px;
-    }
     .services__small-item:nth-child(4) .small-item__inner{
         flex-direction: row;
         text-align: left;
@@ -134,9 +115,6 @@
     .aducation__images img{
         width: 49%;
         margin-bottom: 20px;
-    }
-    .error__subtitle{
-        font-size: 50px;
     }
     .services__small-item{
         &:nth-child(2){
@@ -234,22 +212,8 @@
     .top__inner{
         padding-top: 30px;
     }
-    .top__descr,
-    .descr{
-        font-size: 16px;
-    }
     .top__subtitle{
         max-width: 350px;
-    }
-    .subtitle{
-        font-size: 38px;
-    }
-    .title{
-        font-size: 55px;
-    }
-    .small-item__title,
-    .big-item__title{
-        font-size: 25px;
     }
     .tab{
         font-size: 18px;
@@ -280,15 +244,9 @@
     .descr{
         line-height: 24px;
     }
-    .small-item__title{
-        font-size: 17px;
-    }
     .big-item__text{
         top: 30px;
         left: 15px;
-    }
-    .big-item__descr{
-        font-size: 16px;
     }
     .services__small-item::before{
         font-size: 20px;
@@ -305,7 +263,6 @@
         padding: 15px;
     }
     .form__input{
-        font-size: 16px;
         height: 40px;
         padding: 15px;
         margin-bottom: 10px;
@@ -338,10 +295,6 @@
     }
     .fancybox-content{
         padding: 20px;
-    }
-    .private__subtitle,
-    .private__title{
-        font-size: 24px;
     }
     .private__descr,
     .animated-modal__descr{
@@ -379,9 +332,6 @@
     .error__title{
         line-height: 130px;
         margin-right: 0;
-    }
-    .error__subtitle{
-        font-size: 38px;
     }
     .error__img{
         transform: scale(.7);

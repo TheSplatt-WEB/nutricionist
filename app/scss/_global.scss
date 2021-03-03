@@ -88,21 +88,21 @@ body{
 .title{
     color: $element;
     font-family: 'Anjhay', sans-serif;
-    font-size: 90px;
+    @include font(90, 55);
     z-index: 2;
     position: relative;
     animation-duration: 3s;
 }
 .subtitle{
     font-family: 'Pobeda', sans-serif;
-    font-size: 77px;
+    @include font(77, 38);
     z-index: 2;
     position: relative;
     animation-duration: 3s;
 }
 
 .descr{
-    font-size: 18px;
+    @include font(18, 16);
     line-height: 30px;
 }
 .descr-row{
@@ -193,7 +193,7 @@ body{
 .private__subtitle,
 .private__title{
     font-family: 'Pobeda', sans-serif;
-    font-size: 30px;
+    @include font(30, 24);
     font-weight: 700;
     margin-bottom: 20px;
 }
